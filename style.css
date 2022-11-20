@@ -1,0 +1,37 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap'); */
+h1 {
+  font-style: times;
+  font-size: large;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.navBar {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: #333; */
+  display: inline-block;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+}
+
+li a:hover {
+  background-color: gray;
+}
